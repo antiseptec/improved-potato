@@ -58,9 +58,6 @@ h1 { z-index: 1; }
 .type-connectors { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
 .type-connectors path { fill: none; stroke: #c3c3c3; stroke-width: 4; stroke-linecap: butt; stroke-dasharray: 14 14; }
 .types-content > :not(.type-connectors) { position: relative; z-index: 1; }
-.side-arrow { position: absolute; top: 50%; width: 62px; height: 184px; object-fit: contain; transform: translateY(-50%); }
-.arrow-left { left: 24px; }
-.arrow-right { right: 24px; }
 
 .capabilities { display: flex; flex-direction: column; align-items: center; gap: 32px; }
 .capabilities .section-heading { width: 100%; }
@@ -131,9 +128,6 @@ h1 { z-index: 1; }
   main { gap: 96px; }
   .section-wrap { padding-inline: 40px; }
   .hero { gap: 36px; }
-  .side-arrow { width: 42px; }
-  .arrow-left { left: 0; }
-  .arrow-right { right: 0; }
   .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto; }
   .feature { min-height: 190px; }
   .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 24px; }
@@ -173,7 +167,6 @@ h1 { z-index: 1; }
   .section-heading p br.desktop-only, .contact-heading br.desktop-only { display: none; }
   .type-cards { flex-direction: column; align-items: stretch; }
   .type-card { width: 100%; min-height: 0; padding-bottom: 18px; }
-  .side-arrow { display: none; }
   .capabilities { gap: 24px; }
   .heading-with-doodles { gap: 2px; }
   .heading-with-doodles img { width: 30px; height: 42px; }
